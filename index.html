@@ -1,424 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MARSK Growth Partners — Business Systems &amp; Growth Enablement for SMEs in Ghana</title>
-  <meta name="description" content="MARSK Growth Partners helps SMEs in Ghana implement practical systems that improve stock control, operational visibility, reporting, and readiness for growth." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARSK Growth Partners — Systems That Give SMEs Control, Visibility, and Growth</title>
+  <meta name="description" content="MARSK Growth Partners helps SMEs in Ghana implement practical systems that improve control, visibility, accountability, and growth.">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- ============================
-       NAVIGATION
-  ============================= -->
-  <header class="nav" id="site-nav">
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav">
     <div class="container nav__inner">
-      <a href="#" class="nav__logo" aria-label="MARSK Growth Partners home">
-        <span class="logo-mark">MARSK</span>
-        <span class="logo-rule">|</span>
-        <span class="logo-sub">Growth Partners</span>
+      <a href="index.html" class="nav__brand">
+        <div class="nav__logo">M</div>
+        <span>MARSK<span class="accent">.</span></span>
       </a>
-      <nav aria-label="Main navigation">
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#flagship">ChopMoney</a></li>
-          <li><a href="#process">How We Work</a></li>
-          <li><a href="#why">Why MARSK</a></li>
-          <li class="nav__links-cta-mobile"><a href="mailto:info@marskgp.com" class="btn btn--primary">Talk to Us</a></li>
-        </ul>
-      </nav>
-      <a href="mailto:info@marskgp.com" class="btn btn--primary nav__cta-desktop">Talk to Us</a>
-      <button class="nav__burger" id="nav-burger" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+
+      <div class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="nav__cta">Talk to Us</a>
+      </div>
+
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
     </div>
-  </header>
 
-  <main>
+    <div class="nav__mobile">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="nav__cta">Talk to Us</a>
+    </div>
+  </nav>
 
-    <!-- ============================
-         HERO
-    ============================= -->
-    <section class="hero" id="home">
-      <div class="container hero__container">
-        <div class="hero__text">
-          <p class="eyebrow eyebrow--light">Business Systems &amp; Growth Enablement &nbsp;·&nbsp; Ghana</p>
-          <h1 class="hero__h1">Your Business Needs<br>Better Systems.<br><span class="text-orange">We Build Them.</span></h1>
-          <p class="hero__sub">MARSK Growth Partners helps small and medium businesses implement practical systems that improve stock control, operational visibility, reporting, and readiness for growth.</p>
-          <div class="hero__actions">
-            <a href="mailto:info@marskgp.com" class="btn btn--primary btn--lg">Book a Consultation</a>
-            <a href="#services" class="btn btn--outline btn--lg">See Our Approach</a>
-          </div>
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__label">MARSK Growth Partners</div>
+        <h1 class="hero__title">
+          Your Business Needs<br>Better Systems.<br><span class="highlight">We Build Them.</span>
+        </h1>
+        <p class="hero__subtitle">
+          We help SMEs in Ghana implement practical systems that improve stock control, operational visibility, and business performance. No fluff. No disappearing acts. Just structured execution that sticks.
+        </p>
+        <div class="hero__actions">
+          <a href="contact.html" class="btn btn--primary">Book a Consultation</a>
+          <a href="services.html" class="btn btn--outline">See Our Approach</a>
         </div>
-        <div class="hero__visual" aria-hidden="true">
-          <div class="dash-card">
-            <div class="dash-card__header">
-              <span class="dash-card__title">Business Health Overview</span>
-              <span class="dash-card__tag">Post-Implementation</span>
-            </div>
-            <div class="dash-metrics">
-              <div class="dash-metric">
-                <div class="dash-metric__info">
-                  <span class="dash-metric__label">Stock Control</span>
-                  <span class="dash-metric__val">82%</span>
-                </div>
-                <div class="dash-metric__bar">
-                  <div class="dash-metric__fill" style="--w: 82%"></div>
-                </div>
-              </div>
-              <div class="dash-metric">
-                <div class="dash-metric__info">
-                  <span class="dash-metric__label">Revenue Visibility</span>
-                  <span class="dash-metric__val">94%</span>
-                </div>
-                <div class="dash-metric__bar">
-                  <div class="dash-metric__fill" style="--w: 94%"></div>
-                </div>
-              </div>
-              <div class="dash-metric">
-                <div class="dash-metric__info">
-                  <span class="dash-metric__label">Reporting Accuracy</span>
-                  <span class="dash-metric__val">91%</span>
-                </div>
-                <div class="dash-metric__bar">
-                  <div class="dash-metric__fill" style="--w: 91%"></div>
-                </div>
-              </div>
-              <div class="dash-metric">
-                <div class="dash-metric__info">
-                  <span class="dash-metric__label">Operational Control</span>
-                  <span class="dash-metric__val">87%</span>
-                </div>
-                <div class="dash-metric__bar">
-                  <div class="dash-metric__fill" style="--w: 87%"></div>
-                </div>
-              </div>
-            </div>
-            <div class="dash-card__footer">
-              <span class="dot dot--orange"></span>
-              Systems implemented by MARSK Growth Partners
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         ABOUT
-    ============================= -->
-    <section class="section bg--off-white" id="about">
-      <div class="container">
-        <div class="split-grid">
-          <div class="split-grid__left">
-            <p class="eyebrow">About MARSK</p>
-            <h2 class="section-h2">A Business Systems &amp; Growth Partner for SMEs</h2>
-          </div>
-          <div class="split-grid__right">
-            <p class="body-lead">MARSK Growth Partners is a structured business systems and growth-enablement firm based in Ghana. We work with small and medium businesses that need stronger operational foundations — clearer controls, better visibility, tighter processes, and the systems to support real growth.</p>
-            <p>We are not a generic solutions agency. We do not offer vague advice and disappear. We implement, train, support, and stay accountable to measurable outcomes. Every engagement is built around a specific business problem and a practical path to solving it.</p>
-            <p>Our clients are SMEs that have outgrown informal ways of managing their operations and need a disciplined partner to help them build the structure that growth demands.</p>
-            <div class="tag-row">
-              <span class="tag">Structure</span>
-              <span class="tag">Implementation</span>
-              <span class="tag">Accountability</span>
-              <span class="tag">Results</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         PAIN POINTS
-    ============================= -->
-    <section class="section bg--navy" id="pain">
-      <div class="container">
-        <p class="eyebrow eyebrow--light">Why Businesses Need This</p>
-        <h2 class="section-h2 color--white">Most SMEs Are Losing Money<br>Because Their Systems Are Weak</h2>
-        <div class="pain-grid">
-          <div class="pain-card reveal-ready">
-            <span class="pain-card__num">01</span>
-            <h3>Stock losses you cannot trace</h3>
-            <p>Inventory shrinks without explanation. No system, no accountability, no way to recover what has already been lost.</p>
-          </div>
-          <div class="pain-card reveal-ready">
-            <span class="pain-card__num">02</span>
-            <h3>Revenue leakages you cannot see</h3>
-            <p>Sales happen but money does not match. The gap grows quietly until it can no longer be ignored or explained.</p>
-          </div>
-          <div class="pain-card reveal-ready">
-            <span class="pain-card__num">03</span>
-            <h3>Reporting that does not reflect reality</h3>
-            <p>Decisions are made on incomplete numbers. The business is always guessing its own performance instead of knowing it.</p>
-          </div>
-          <div class="pain-card reveal-ready">
-            <span class="pain-card__num">04</span>
-            <h3>Operations that cannot scale</h3>
-            <p>Growth is held back by processes built for a smaller, simpler business. What worked before now actively limits you.</p>
-          </div>
-          <div class="pain-card reveal-ready">
-            <span class="pain-card__num">05</span>
-            <h3>No visibility for the owner</h3>
-            <p>The business is running but the owner does not know what is actually happening inside it. Decisions are made by feel, not by data.</p>
-          </div>
-          <div class="pain-card reveal-ready">
-            <span class="pain-card__num">06</span>
-            <h3>Confusion that blocks every decision</h3>
-            <p>Without clear systems, every decision takes longer and costs more than it should. The business is always firefighting instead of growing.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         SERVICES
-    ============================= -->
-    <section class="section bg--off-white" id="services">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">What We Do</p>
-          <h2 class="section-h2">Our Services</h2>
-          <p class="section-intro">We organize our work into a clear progression — from practical system implementation through to longer-term business optimization and growth support.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card reveal-ready">
-            <div class="service-card__top">
-              <span class="service-card__num">01</span>
-              <h3>Systems Implementation</h3>
-            </div>
-            <p>We identify the right operational systems for your business and implement them properly — from setup and configuration to staff onboarding and go-live support.</p>
-          </div>
-          <div class="service-card reveal-ready">
-            <div class="service-card__top">
-              <span class="service-card__num">02</span>
-              <h3>Inventory &amp; Operational Control</h3>
-            </div>
-            <p>We help businesses take control of their stock, track movement accurately, reduce shrinkage, and build reliable visibility into day-to-day operations.</p>
-          </div>
-          <div class="service-card reveal-ready">
-            <div class="service-card__top">
-              <span class="service-card__num">03</span>
-              <h3>Process Structuring</h3>
-            </div>
-            <p>We map, clean, and document the internal processes that govern how work gets done — reducing confusion, improving consistency, and building scalable routines.</p>
-          </div>
-          <div class="service-card reveal-ready">
-            <div class="service-card__top">
-              <span class="service-card__num">04</span>
-              <h3>Performance Visibility &amp; Reporting</h3>
-            </div>
-            <p>We build reporting structures that give owners and managers accurate, timely information — so decisions are based on real numbers, not guesswork.</p>
-          </div>
-          <div class="service-card service-card--wide reveal-ready">
-            <div class="service-card__top">
-              <span class="service-card__num">05</span>
-              <h3>Growth Support for SMEs</h3>
-            </div>
-            <p>Once the operational foundation is in place, we support structured growth — helping businesses scale without losing control of what they have already built. This includes expanded system use, advisory support, and performance optimization over time.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         FLAGSHIP / CHOPMONEY
-    ============================= -->
-    <section class="section bg--navy" id="flagship">
-      <div class="container">
-        <div class="flagship-grid">
-          <div class="flagship-grid__left">
-            <span class="badge">Current Implementation Focus</span>
-            <h2 class="section-h2 color--white">Helping SMEs Take Control of Their Inventory</h2>
-            <p class="color--muted">MARSK's current flagship implementation focus is built around <strong class="color--white">MyChopmoneyApp / ChopMoney</strong> — a practical inventory management platform suited to the operational realities of Ghanaian SMEs.</p>
-            <p class="color--muted">We do not just introduce the software and walk away. We handle the full implementation cycle so businesses can actually use it, rely on it, and extract measurable value from day one. The inventory system is our entry point into a deeper operational relationship with every client.</p>
-            <a href="mailto:info@marskgp.com" class="btn btn--primary" style="margin-top: 2rem; display: inline-block;">Get Started</a>
-          </div>
-          <div class="flagship-grid__right">
-            <div class="feature-list">
-              <div class="feature-item reveal-ready">
-                <div class="feature-item__icon">&#10230;</div>
-                <div class="feature-item__body">
-                  <strong>System Setup &amp; Configuration</strong>
-                  <p>Full installation and configuration tailored to your specific business structure, product catalogue, and team setup.</p>
-                </div>
-              </div>
-              <div class="feature-item reveal-ready">
-                <div class="feature-item__icon">&#10230;</div>
-                <div class="feature-item__body">
-                  <strong>Staff Onboarding &amp; Training</strong>
-                  <p>Hands-on training so your team actually adopts and operates the system correctly from day one — not just in theory.</p>
-                </div>
-              </div>
-              <div class="feature-item reveal-ready">
-                <div class="feature-item__icon">&#10230;</div>
-                <div class="feature-item__body">
-                  <strong>Operational Integration</strong>
-                  <p>We ensure the system fits into how your business actually works, not the other way around. The solution adapts to you.</p>
-                </div>
-              </div>
-              <div class="feature-item reveal-ready">
-                <div class="feature-item__icon">&#10230;</div>
-                <div class="feature-item__body">
-                  <strong>Post-Implementation Support</strong>
-                  <p>Ongoing support after go-live to resolve issues, reinforce correct use, and optimize system performance as you grow.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         HOW WE WORK
-    ============================= -->
-    <section class="section bg--off-white" id="process">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">How We Work</p>
-          <h2 class="section-h2">A Clear, Structured Engagement</h2>
-          <p class="section-intro">Every MARSK engagement follows a disciplined process. We do not begin implementation until we understand the problem. We do not close an engagement until the client can operate independently.</p>
-        </div>
-        <div class="process-steps">
-          <div class="process-step reveal-ready">
-            <div class="process-step__num">01</div>
-            <div class="process-step__body">
-              <h3>Diagnose</h3>
-              <p>We start by understanding your actual operational situation — stock management, reporting, team structure, and precisely where control is breaking down.</p>
-            </div>
-          </div>
-          <div class="process-step reveal-ready">
-            <div class="process-step__num">02</div>
-            <div class="process-step__body">
-              <h3>Structure</h3>
-              <p>We define the right solution, map the implementation plan, set expectations with your team, and establish clearly what success looks like.</p>
-            </div>
-          </div>
-          <div class="process-step reveal-ready">
-            <div class="process-step__num">03</div>
-            <div class="process-step__body">
-              <h3>Implement</h3>
-              <p>We set up and configure the system, connect it to your existing processes, and handle the transition from old to new with minimal disruption.</p>
-            </div>
-          </div>
-          <div class="process-step reveal-ready">
-            <div class="process-step__num">04</div>
-            <div class="process-step__body">
-              <h3>Train</h3>
-              <p>We train your team until they can operate the system confidently. Adoption is not optional — it is part of what we deliver and measure.</p>
-            </div>
-          </div>
-          <div class="process-step reveal-ready">
-            <div class="process-step__num">05</div>
-            <div class="process-step__body">
-              <h3>Support</h3>
-              <p>We stay engaged after go-live to resolve issues, reinforce correct use, and ensure the system delivers the control and visibility it was designed to provide.</p>
-            </div>
-          </div>
-          <div class="process-step reveal-ready">
-            <div class="process-step__num">06</div>
-            <div class="process-step__body">
-              <h3>Improve</h3>
-              <p>Over time, we identify optimization opportunities — refining processes, expanding system use, and building toward the next layer of business improvement.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         WHY MARSK
-    ============================= -->
-    <section class="section bg--white" id="why">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Why MARSK</p>
-          <h2 class="section-h2">What Makes Us Different</h2>
-        </div>
-        <div class="why-grid">
-          <div class="why-item reveal-ready">
-            <h3>We implement, not just advise</h3>
-            <p>Most consultants give recommendations and leave. MARSK stays through implementation, training, and adoption. We are accountable to outcomes, not just outputs.</p>
-          </div>
-          <div class="why-item reveal-ready">
-            <h3>We understand Ghanaian SME reality</h3>
-            <p>We know how SMEs in Ghana actually operate — informally structured, under-resourced, time-constrained. Our solutions are built for that reality, not ideal conditions that do not exist here.</p>
-          </div>
-          <div class="why-item reveal-ready">
-            <h3>We think in systems, not transactions</h3>
-            <p>A single software sale is not what we are building toward. Our goal is a deeper operational relationship — one where every engagement makes the client's business run measurably better over time.</p>
-          </div>
-          <div class="why-item reveal-ready">
-            <h3>We bring discipline to every engagement</h3>
-            <p>We document, structure, and deliver with consistency. Our clients get clear communication, defined expectations, and engagements that stay on track from start to finish.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================
-         CTA
-    ============================= -->
-    <section class="section cta-section" id="contact">
-      <div class="container">
-        <div class="cta-block">
-          <p class="eyebrow eyebrow--light">Ready to Start</p>
-          <h2 class="cta-block__h2">Let's Talk About Your Business</h2>
-          <p class="cta-block__sub">If your business is dealing with stock loss, poor visibility, weak reporting, or operational confusion — we can help you build the systems to fix it. Start with a conversation.</p>
-          <div class="cta-block__actions">
-            <a href="mailto:info@marskgp.com" class="btn btn--primary btn--lg">Book a Consultation</a>
-            <a href="mailto:info@marskgp.com" class="btn btn--outline-light btn--lg">info@marskgp.com</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ============================
-       FOOTER
-  ============================= -->
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div class="footer__brand">
-        <div class="footer__logo">
-          <span class="logo-mark">MARSK</span>
-          <span class="logo-rule">|</span>
-          <span class="logo-sub">Growth Partners</span>
-        </div>
-        <p class="footer__tagline">SME Systems &amp; Growth Enablement<br>Accra, Ghana</p>
-      </div>
-      <div class="footer__col">
-        <h4>Navigation</h4>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#flagship">ChopMoney Implementation</a></li>
-          <li><a href="#process">How We Work</a></li>
-          <li><a href="#why">Why MARSK</a></li>
-        </ul>
-      </div>
-      <div class="footer__col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="mailto:info@marskgp.com">info@marskgp.com</a></li>
-          <li>+233 [Phone Placeholder]</li>
-          <li>[Address Placeholder], Accra, Ghana</li>
-        </ul>
       </div>
     </div>
-    <div class="footer__bottom">
-      <div class="container">
-        <p>&copy; 2025 MARSK Growth Partners. All rights reserved. Ghana.</p>
+  </section>
+
+  <!-- ========== INTRO STRIP ========== -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="grid-2 fade-in" style="align-items: center;">
+        <div>
+          <div class="section-header">
+            <div class="section-header__label">Who We Are</div>
+            <h2 class="section-header__title">A systems and growth partner for SMEs</h2>
+          </div>
+          <p style="margin-bottom: var(--sp-md);">
+            MARSK Growth Partners exists to help small and medium businesses move from operational guesswork to structured control. We implement the systems, processes, and visibility tools that let you see what is really happening in your business — and act on it.
+          </p>
+          <a href="about.html" class="btn btn--outline-dark">Learn More About MARSK</a>
+        </div>
+        <div class="img-placeholder">
+          <!-- Future: team or office photo -->
+          Image Placeholder
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT WE DO (TEASERS) ========== -->
+  <section class="section section--offwhite">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-header__label">What We Do</div>
+        <h2 class="section-header__title">Structured services that move businesses forward</h2>
+        <p class="section-header__desc">We focus on implementation, not presentations. Every service is designed to create measurable improvement in how your business operates.</p>
+      </div>
+
+      <div class="grid-3 fade-in">
+        <div class="card card--accent">
+          <div class="card__icon">01</div>
+          <h3>Systems Implementation</h3>
+          <p>We deploy and configure the right tools for your business — properly set up, properly taught, properly supported.</p>
+        </div>
+        <div class="card card--accent">
+          <div class="card__icon">02</div>
+          <h3>Inventory &amp; Operational Control</h3>
+          <p>Stock tracking, sales visibility, and real accountability structures that stop leakages and guesswork.</p>
+        </div>
+        <div class="card card--accent">
+          <div class="card__icon">03</div>
+          <h3>Growth Support for SMEs</h3>
+          <p>Process structuring, performance reporting, and operational discipline that prepare businesses to scale.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: var(--sp-lg);" class="fade-in">
+        <a href="services.html" class="btn btn--primary">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY BUSINESSES NEED THIS (TEASER) ========== -->
+  <section class="section section--navy">
+    <div class="container">
+      <div class="grid-2 fade-in" style="align-items: center;">
+        <div>
+          <div class="section-header">
+            <div class="section-header__label">The Problem</div>
+            <h2 class="section-header__title">Most SMEs are running blind</h2>
+            <p class="section-header__desc">
+              Stock goes missing and nobody can explain it. Sales happen but margins stay thin. Reports are late, incomplete, or nonexistent. Growth feels impossible when you cannot see what is happening inside your own business.
+            </p>
+          </div>
+          <div class="pain-list">
+            <div class="pain-list__item">
+              <div class="pain-list__icon"></div>
+              <p style="color: rgba(255,255,255,0.75);">Stock losses you only discover too late</p>
+            </div>
+            <div class="pain-list__item">
+              <div class="pain-list__icon"></div>
+              <p style="color: rgba(255,255,255,0.75);">Revenue leakages nobody can trace</p>
+            </div>
+            <div class="pain-list__item">
+              <div class="pain-list__icon"></div>
+              <p style="color: rgba(255,255,255,0.75);">Decisions made on gut feeling, not data</p>
+            </div>
+            <div class="pain-list__item">
+              <div class="pain-list__icon"></div>
+              <p style="color: rgba(255,255,255,0.75);">Operations too messy to scale</p>
+            </div>
+          </div>
+          <div style="margin-top: var(--sp-lg);">
+            <a href="services.html" class="btn btn--primary">See How We Fix This</a>
+          </div>
+        </div>
+        <div class="img-placeholder img-placeholder--navy">
+          <!-- Future: data dashboard mockup or illustrative graphic -->
+          Image Placeholder
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW WE WORK (TEASER) ========== -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="section-header fade-in" style="text-align: center; max-width: 600px; margin-left: auto; margin-right: auto;">
+        <div class="section-header__label" style="justify-content: center;">Our Process</div>
+        <h2 class="section-header__title">Six steps from disorder to control</h2>
+        <p class="section-header__desc" style="margin-left: auto; margin-right: auto;">Every engagement follows a structured process. No guesswork on our side either.</p>
+      </div>
+
+      <div class="grid-3 fade-in">
+        <div class="card" style="text-align: center;">
+          <div class="card__number">01</div>
+          <h4>Diagnose</h4>
+          <p>Understand the real operational gaps</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card__number">02</div>
+          <h4>Structure</h4>
+          <p>Design the right system and process fit</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card__number">03</div>
+          <h4>Implement</h4>
+          <p>Set up, configure, and deploy properly</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card__number">04</div>
+          <h4>Train</h4>
+          <p>Make sure your team can actually use it</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card__number">05</div>
+          <h4>Support</h4>
+          <p>Stay present through the critical early weeks</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card__number">06</div>
+          <h4>Improve</h4>
+          <p>Refine based on what the data shows</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: var(--sp-lg);" class="fade-in">
+        <a href="services.html" class="btn btn--outline-dark">Full Process Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <section class="cta-banner">
+    <div class="container fade-in">
+      <h2>Ready to get your business under control?</h2>
+      <p>Book a consultation and let us show you where the gaps are — and how to close them.</p>
+      <a href="contact.html" class="btn btn--primary">Book a Consultation</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">MARSK<span class="accent">.</span></div>
+          <p class="footer__desc">
+            A systems and growth partner for SMEs in Ghana. We implement practical solutions that improve control, visibility, and business performance.
+          </p>
+        </div>
+        <div>
+          <div class="footer__heading">Pages</div>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <div class="footer__links">
+            <a href="mailto:info@marskgp.com">info@marskgp.com</a>
+            <a href="tel:+233557447392">055 744 7392</a>
+            <a>Accra, Ghana</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 MARSK Growth Partners. All rights reserved.</span>
+        <span>Accra, Ghana</span>
       </div>
     </div>
   </footer>
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
